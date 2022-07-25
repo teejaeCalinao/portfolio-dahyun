@@ -7,12 +7,33 @@
 }
 
 
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -90px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+.fab {
+	font-size: 3vh;
+	
+}
+
+.landingLogos {
+	height: 5vh;
+	width: 5vh;
+	box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.75);
+}
 #landing{
 	background-image: url(https://i.pinimg.com/originals/47/68/47/476847c0277afe0398b2667abba04c4a.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 91.5vh;
+	height: 100vh;
 }
 
 #landing2{
